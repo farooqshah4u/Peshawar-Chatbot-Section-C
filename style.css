@@ -1,0 +1,24 @@
+
+h1,h2,h3,h4{
+  color:brown;
+  background-color:rgba(205, 209, 228);
+  font-family:"Calibri", sans-serif;
+}
+body{
+  background-color: rgba(36, 37, 42);
+  color: rgba(205, 209, 228);
+  border: 1pxl solid white;
+  padding: 1rem;
+  margin: 1rem;
+border-radius: 50%;
+font-family:"Calibri", sans-serif;
+}
+img{
+    border:1px solid white;
+    border-radius: 50%;
+}
+.unerline{
+    text-decoration: underline;
+    font-family:"Calibri", sans-serif;
+}
+
