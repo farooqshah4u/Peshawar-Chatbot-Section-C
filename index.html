@@ -1,73 +1,321 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Farooq CV</title>
-</head>
-<body>
-        <center>
-            <img src="./img/farooq.jpg" height="150px" width="150px">
-        <table>
-            <tr>
-                <th align="right">Name:</th>
-                <td><u>Muhammad Farooq Shah</u></td>
-            </tr>
-            <tr>
-                <th align="right">CNIC:</th>
-                <td><u>17301-688415-3</u></td>
-            </tr>
-            <tr>
-                <th align="right">Address:</th>
-                <td><u>Peshawar</u></td>
-            </tr>
-            <tr>
-                <th align="right">Contact No:</th>
-                <td><u>03459075122</u></td>
-            </tr>
-        </table>
-    </center>
-            <h2>Objectives:</h2>
-            <p>The objective of my life is to work hard and gain perfection in my field of studies and work and do something for my parents and family.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style4.css" />
+    <title>Youtube Clone with HTML & CSS</title>
+  </head>
+  <body>
+      <header class="header">
+        <div class="logo left">
+            <i id="menu" class="material-icons">menu</i>
+            <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
+          </div>
+          
+          <div class="search center">
+            <form action="">
+              <input type="text" placeholder="Search" />
+              <button><i class="material-icons">search</i></button>
+            </form>
+            <i class="material-icons mic">mic</i>
+          </div>
+          
+          <div class="icons right">
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons display-this">account_circle</i>
+          </div>
+      </header>
+      <main>
+        <div class=”side-bar”>
+            <div class="nav">
+              <a class="nav-link active">
+                 <i class="material-icons">home</i>
+                 <span>Home</span>
+              </a>
+              <a class="nav-link">
+                 <i class="material-icons">local_fire_department</i>
+                 <span>Trending</span>
+              </a>
+              <a class="nav-link">
+                 <i class="material-icons">subscriptions</i>
+                 <span>Subscriptions</span>
+              </a>
+            </div>
+            <hr>
+            <a class="nav-link">
+                <i class="material-icons">library_add_check</i>
+                <span>Library</span>
+             </a>
+             <a class="nav-link">
+                <i class="material-icons">history</i>
+                <span>History</span>
+             </a>
+             <a class="nav-link">
+                <i class="material-icons">play_arrow</i>
+                <span>Your Videos</span>
+             </a>
+             <a class="nav-link">
+                <i class="material-icons">watch_later</i>
+                <span>Watch Later</span>
+             </a>
+             <a class="nav-link">
+                <i class="material-icons">thumb_up</i>
+                <span>Liked Videos</span>
+             </a>
+            </div>
+          <div class="content">
+            <div class="videos">
+                <!-- a video starts -->
+                  <div class="video">
+                     <div class="thumbnail">
+                        <img src="./img/video1.png" alt="" />
+                      </div>
+              
+                        <div class="details">
+                           <div class="author">
+                              <img src="https://yt3.googleusercontent.com/alMIGlFKsLaHzo5_ZE3gPkN7cA9FGuY-sRZZCkv9IJlMG0N7LlDooWbzEr-N6nWo7qgY4LeSZA=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                           </div>
+                           <div class="title">
+                              <h3>
+                                 This Sales Girl Can Sell Anything | Podcastic # 24 | Umar Saleem
+                               </h3>
+                               <a href="">
+                                      Francesco Ciulla
+                                </a>
+                                <span> 2M Views • 3 Months Ago </span>
+                           </div>
+                         </div>
+              
+                       </div>
+                 <!-- a video Ends -->
+                 <div class="video">
+                  <div class="thumbnail">
+                     <img src="./img/video2.png" alt="" />
+                   </div>
+           
+                     <div class="details">
+                        <div class="author">
+                           <img src="https://yt3.googleusercontent.com/alMIGlFKsLaHzo5_ZE3gPkN7cA9FGuY-sRZZCkv9IJlMG0N7LlDooWbzEr-N6nWo7qgY4LeSZA=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                        </div>
+                        <div class="title">
+                           <h3>
+                              10 Games That Understand Our GAMER INSTINCT TOO WELL
+                            </h3>
+                            <a href="">
+                                   Francesco Ciulla
+                             </a>
+                             <span> 2M Views • 3 Months Ago </span>
+                        </div>
+                      </div>
+           
+                    </div>
 
-            <h2>Experience:</h2>
-            <ul>
-                <li><b> Administrator (from 3rd August 2009 till 31st July 2014)</b></li>
-                <p>My duties at INARA Systems were to establish and maintain the network and to troubleshoot the problems that occurs in server and client systems. I was also responsible to configure and troubleshoot all network devices including routers, switches, firewall, load balancer and other devices.</p>
-                <li><b> IT Manager (1st October 2014 till 31st March 2015)</b></li>
-                <p>My duties at Hafeez institute of Medical Sciences (HIMS) were to establish, maintain and troubleshoot the problems of IT related issues. I was responsible to solve all the computer and network related issues. I also had to maintain the IT Lab with all network devices.</p>
-                <li><b> IT Manager (4th May 2015 till 31st July 2017)</b></li>
-                <p>My duties at Professionals’ Academy of commerce (PAC) were to deploy, maintain and troubleshoot network and all IT equipment in an IT Lab as well as in whole organization. I was responsible to solve the entire Software/Hardware and network related issues.</p>
-                <li><b> SST-IT Teacher (9th September 2017 till Now)</b></li>
-                <p>My duties at Government High School Din Bahar Colony Peshawar, Pakistan are to deliver class lectures to the students from 6th grade to the 10th grade of IT and Computer Subjects. I am also responsible to supervise the IT lab Incharge of IT lab at school. I have to teach and guide students about IT equipment and train them for the college level.</p>
+                    <div class="video">
+                     <div class="thumbnail">
+                        <img src="./img/video3.png" alt="" />
+                      </div>
+              
+                        <div class="details">
+                           <div class="author">
+                              <img src="https://yt3.googleusercontent.com/alMIGlFKsLaHzo5_ZE3gPkN7cA9FGuY-sRZZCkv9IJlMG0N7LlDooWbzEr-N6nWo7qgY4LeSZA=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                           </div>
+                           <div class="title">
+                              <h3>
+                                 Tribal People Try Spicy Ramen Noodles Challenge
+                               </h3>
+                               <a href="">
+                                      Francesco Ciulla
+                                </a>
+                                <span> 2M Views • 3 Months Ago </span>
+                           </div>
+                         </div>
+              
+                       </div>
 
-            </ul>        
-            <h2>Education:</h2>
-            <table border="1 solid">
-                <tr>
-                    <th>Year</th><th>Degree</th><th>Institute</th>
-                </tr>
-                <tr>
-                    <td>2013</td><td>Bachelors of Computer Sciences BS(CS)</td><td>Abasyn University Peshawar, KPK, Pakistan</td>                      
-                </tr>
-                <tr>
-                    <td>2006</td><td>F.A (Inter-Science)</td><td>Board of Intermediate and Secondary Education Peshawar</td>
-                </tr>
-                <tr>
-                    <td>2004</td><td>Secondary School Certificate </td><td>Board of Intermediate and Secondary Education Peshawar </td>
-                </tr>
-            </table>
-            <h2>Certification:</h2>
-            <ul>
-                <li>Cisco Certified Network Associate (CCNA)</li>
-                <li>Cisco Certified Network Professional (CCNP)</li>
-                <li>Microdoft Certified System Engineer (MCSE)</li>
-                <li>Diploma in Information Technology (DIT)</li>
-            </ul>
-            <h2>Languages:</h2>
-            <p> speaking and written in English, Pashto and Urdu and can understand Hindi.</p>
+                       <div class="video">
+                        <div class="thumbnail">
+                           <img src="./img/video5.png" alt="" />
+                         </div>
+                 
+                           <div class="details">
+                              <div class="author">
+                                 <img src="https://yt3.googleusercontent.com/alMIGlFKsLaHzo5_ZE3gPkN7cA9FGuY-sRZZCkv9IJlMG0N7LlDooWbzEr-N6nWo7qgY4LeSZA=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                              </div>
+                              <div class="title">
+                                 <h3>
+                                     tabish hashmi with waseem
+                                  </h3>
+                                  <a href="">
+                                         Francesco Ciulla
+                                   </a>
+                                   <span> 2M Views • 3 Months Ago </span>
+                              </div>
+                            </div>
+                 
+                          </div>
 
+                          <div class="video">
+                           <div class="thumbnail">
+                              <img src="./img/video6.png" alt="" />
+                            </div>
+                    
+                              <div class="details">
+                                 <div class="author">
+                                    <img src="https://yt3.googleusercontent.com/alMIGlFKsLaHzo5_ZE3gPkN7cA9FGuY-sRZZCkv9IJlMG0N7LlDooWbzEr-N6nWo7qgY4LeSZA=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                                 </div>
+                                 <div class="title">
+                                    <h3>
+                                        resident evil game
+                                     </h3>
+                                     <a href="">
+                                            Francesco Ciulla
+                                      </a>
+                                      <span> 2M Views • 3 Months Ago </span>
+                                 </div>
+                               </div>
+                    
+                             </div>
+
+                             <div class="video">
+                              <div class="thumbnail">
+                                 <img src="./img/video7.png" alt="" />
+                               </div>
+                       
+                                 <div class="details">
+                                    <div class="author">
+                                       <img src="https://yt3.googleusercontent.com/alMIGlFKsLaHzo5_ZE3gPkN7cA9FGuY-sRZZCkv9IJlMG0N7LlDooWbzEr-N6nWo7qgY4LeSZA=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                                    </div>
+                                    <div class="title">
+                                       <h3>
+                                         funny gossip
+                                        </h3>
+                                        <a href="">
+                                               Francesco Ciulla
+                                         </a>
+                                         <span> 3M Views   2Months Ago </span>
+                                    </div>
+                                  </div>
+                       
+                                </div>
+
+                                <div class="video">
+                                 <div class="thumbnail">
+                                    <img src="./img/video8.png" alt="" />
+                                  </div>
+                          
+                                    <div class="details">
+                                       <div class="author">
+                                          <img src="https://yt3.googleusercontent.com/alMIGlFKsLaHzo5_ZE3gPkN7cA9FGuY-sRZZCkv9IJlMG0N7LlDooWbzEr-N6nWo7qgY4LeSZA=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                                       </div>
+                                       <div class="title">
+                                          <h3>
+                                             Asian food
+                                           </h3>
+                                           <a href="">
+                                                  Francesco Ciulla
+                                            </a>
+                                            <span> 5M Views • 9 Months Ago </span>
+                                       </div>
+                                     </div>
+                          
+                                   </div>
+
+                                   <div class="video">
+                                    <div class="thumbnail">
+                                       <img src="./img/video9.png" alt="" />
+                                     </div>
+                             
+                                       <div class="details">
+                                          <div class="author">
+                                             <img src="https://yt3.googleusercontent.com/alMIGlFKsLaHzo5_ZE3gPkN7cA9FGuY-sRZZCkv9IJlMG0N7LlDooWbzEr-N6nWo7qgY4LeSZA=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                                          </div>
+                                          <div class="title">
+                                             <h3>
+                                                 End of life
+                                              </h3>
+                                              <a href="">
+                                                     Francesco Ciulla
+                                               </a>
+                                               <span> 4M Views • 3 Months Ago </span>
+                                          </div>
+                                        </div>
+                             
+                                      </div>
+
+                                      <div class="video">
+                                       <div class="thumbnail">
+                                          <img src="./img/video10.png" alt="" />
+                                        </div>
+                                
+                                          <div class="details">
+                                             <div class="author">
+                                                <img src="https://yt3.googleusercontent.com/alMIGlFKsLaHzo5_ZE3gPkN7cA9FGuY-sRZZCkv9IJlMG0N7LlDooWbzEr-N6nWo7qgY4LeSZA=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                                             </div>
+                                             <div class="title">
+                                                <h3>
+                                                    Horror movie
+                                                 </h3>
+                                                 <a href="">
+                                                        Francesco Ciulla
+                                                  </a>
+                                                  <span> 4M Views • 1 Months Ago </span>
+                                             </div>
+                                           </div>
+                                
+                                         </div>
+
+                                         <div class="video">
+                                          <div class="thumbnail">
+                                             <img src="./img/video11.png" alt="" />
+                                           </div>
+                                   
+                                             <div class="details">
+                                                <div class="author">
+                                                   <img src="https://yt3.googleusercontent.com/alMIGlFKsLaHzo5_ZE3gPkN7cA9FGuY-sRZZCkv9IJlMG0N7LlDooWbzEr-N6nWo7qgY4LeSZA=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                                                </div>
+                                                <div class="title">
+                                                   <h3>
+                                                       Enjoing life
+                                                    </h3>
+                                                    <a href="">
+                                                           Francesco Ciulla
+                                                     </a>
+                                                     <span> 3M Views • 2 Months Ago </span>
+                                                </div>
+                                              </div>
+                                   
+                                            </div>
+
+                                            <div class="video">
+                                             <div class="thumbnail">
+                                                <img src="./img/video12.png" alt="" />
+                                              </div>
+                                      
+                                                <div class="details">
+                                                   <div class="author">
+                                                      <img src="https://yt3.googleusercontent.com/alMIGlFKsLaHzo5_ZE3gPkN7cA9FGuY-sRZZCkv9IJlMG0N7LlDooWbzEr-N6nWo7qgY4LeSZA=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                                                   </div>
+                                                   <div class="title">
+                                                      <h3>
+                                                          Scale of earth
+                                                       </h3>
+                                                       <a href="">
+                                                              Francesco Ciulla
+                                                        </a>
+                                                        <span> 1M Views • 1 Months Ago </span>
+                                                   </div>
+                                                 </div>
+                                      
+                                               </div>
+               </div>
+          </div>
+      </main>
+  <!-- Main Body Ends -->
 </body>
 </html>
